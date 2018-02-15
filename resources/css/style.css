@@ -29,7 +29,7 @@ h3 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 .jumbotron-content {
   max-height: 35.5rem;
@@ -60,7 +60,7 @@ h3 {
 }
 
 #blog {
-  height: 40rem;
+  min-height: 40rem;
 }
 
 .panelbody {
@@ -96,4 +96,14 @@ footer {
 
 li {
   padding-right: 1rem;
+}
+
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #C764FC;
+  border-color: #C764FC; 
+  text-decoration: none;
+  transition: all .3s ease-out .3s;
 }
