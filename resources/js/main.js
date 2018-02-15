@@ -5,7 +5,8 @@ $(document).ready(function(){
     autoplaySpeed: 4000,
     arrows: false,
     draggable: false,
-    pauseOnHover: false
+    pauseOnFocus: true,
+    pauseOnHover: true
   });
 
   var lastScrollTop = 0;
