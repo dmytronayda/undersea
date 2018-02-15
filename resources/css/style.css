@@ -23,7 +23,6 @@ h3 {
   text-shadow: 0px 3px #4038A4;
 }
 .jumbotron {
-  background-size: 100% 100%;
   background-position: center;
   height: 50rem;
   display: flex;
@@ -103,7 +102,7 @@ footer a {
 }
 footer a:hover {
   color: #C764FC;
-  border-color: #C764FC; 
+  border-color: #C764FC;
   text-decoration: none;
   transition: all .3s ease-out .3s;
 }
