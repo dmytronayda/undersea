@@ -1,146 +1,99 @@
-body {
-  font-size: 14px;
-  --main-font-family: 'Open Sans', sans-serif;
+html {
+  --main-font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.25
 }
 
-h2 {
-  font-size: 1.7rem;
-  font-weight: bold;
-  color: #399bd1;
+h1 {
+  font-family: 'Patua One', cursive;
+  font-size: 3.5rem;
 }
 
 h3 {
-  font-size: 1.3rem;
-  font-weight: bold;
+  font-family: 'Patua One', cursive;
+  font-size: 1.75rem;
 }
 
-img {
-  width: 100%;
-}
-.header {
-  font-weight: bold;
-  font-size: 1.1em;
+.header img {
+  width: 2.5rem;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover {
-  background-color: inherit;
-  color: #399bd1;
+.text {
+  padding-left: 3rem;
+  text-shadow: 0px 3px #4038A4;
 }
-
-.nav-up {
-  top: -55px; 
-}
-
-
-.jumbotron-bike {
+.jumbotron {
+  background-size: 100% 100%;
+  background-position: center;
+  height: 50rem;
   display: flex;
-  justify-content: center;
-  background-image: url("./../images/jumbotron-bike.jpg");
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 0; 
 }
-
-.jumbotron-think {
-  display: flex;
-  justify-content: center;
-  background-image: url("./../images/jumbotron-beer.jpg");
-}
-
-.jumbotron-create {
-  display: flex;
-  justify-content: center;
-  background-image: url("./../images/jumbotron-flowers.jpg");
-}
-
-.jumbotron-start {
-  display: flex;
-  justify-content: center;
-  background-image: url("./../images/jumbotron-duffel.jpg");
-}
-
 .jumbotron-content {
-  max-width: 51.3rem;
+  max-height: 35.5rem;
   color: white;
-  padding: 11.85rem 0;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000;
+}
+.jumbotron-welcome {
+  background-image: url("./../images/undersea/2208_1242_5.png");
+}
+.jumbotron-characters {
+  background-image: url("./../images/undersea/2208_1242_4.png");
 }
 
-.jumbotron-content h1 {
-  font-family: "Monoton";
-  text-transform: uppercase;
-  font-size: 7.1rem;
+.jumbotron-boosters {
+  background-image: url("./../images/undersea/2208_1242_3.png");
 }
-
-@media only screen and(max-width: 480px) {
-  .jumbotron-content h1 {
-    font-size: 5.7rem;
-    text-shadow: -1px 1px 0 #000, 1px -1px 0 #000,-1px 1px 0 #000, 1px -1px 0 #000;
-  }
+.jumbotron-city {
+  background-image: url("./../images/undersea/2208_1242_2.png");
 }
-
-.btn-primary {
-  background-color: #399bd1;
-  box-shadow: 0 0 3px rgba(0,0,0, 0.5);
+.btn {
+  background-color: #E8805F;
+  padding: 1rem;
   text-shadow: none;
 }
 
-.btn-primary:hover {
-  box-shadow: 0 0 12px rgba(0,0,0, 0.9);
+.btn:hover {
+  background-color: #C764FC;
+  transition: all .3s ease-out .3s;
 }
 
-.btn-primary:active {
-  box-shadow: 0 0 3px rgba(0,0,0, 0.5);
-
+#blog {
+  height: 40rem;
 }
 
-.title {
-  margin-bottom: 20px;
+.panelbody {
+  height: 15rem;
+  background-image:url("./../images/undersea/2208_1242_5.png");
+  background-size: 100% 100%;
+  color: white;
+  text-shadow: 0px 3px #4038A4;
 }
-img {
-  width: 100%;
+.download-buttons {
+  display: flex;
+  justify-content: space-around;
 }
-.image-container {
+.download-buttons img {
+  height: 2.5rem;
+  border: 1px solid grey;
+  border-radius: 4px;
   overflow: hidden;
 }
 
-.image-container img {
-  opacity: 0.7;
-  transition: transform .5s,
-              opacity .5s;
-  transition: transform .5s,
-              opacity .5s;
+.button {
+  padding-left: 1rem;
 }
 
-.image-container img:hover {
-  opacity: 1;
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.3);
+footer {
+  background-color: #4139A6;
+  color: white;
 }
-
-ul {
-  color: rgba(0, 0, 0, 0,7);
-}
-.projects {
-  padding-bottom: 5.85rem;
-}
-
-.having-trouble {
-  padding: 5.2rem 0;
-  background-color: #f3f3f3;
-  text-align: center;
-}
-
-strong {
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.having-trouble p {
-  max-width: 42rem;
-  padding: 1.4rem 0;
-  margin: auto;
-}
-
-.slick-initialized .slick-slide {
+.services ul{
   display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding-right: 1rem;
 }
