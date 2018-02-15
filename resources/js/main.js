@@ -6,7 +6,7 @@ $(document).ready(function(){
     arrows: false,
     draggable: false,
     pauseOnFocus: true,
-    pauseOnHover: true
+    pauseOnHover: false
   });
 
   var lastScrollTop = 0;
